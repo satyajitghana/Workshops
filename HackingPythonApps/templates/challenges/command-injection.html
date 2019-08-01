@@ -1,0 +1,21 @@
+{% extends 'layout.html' %} {% block body %} {% include
+'includes/_challenge.html' %}
+<hr />
+<form action="/command-injection" method="GET">
+  <div class="input-group mb-3">
+    <input
+      type="text"
+      name="ip"
+      class="form-control"
+      placeholder="IP Address"
+      aria-label="IP Address"
+      aria-describedby="ping-btn"
+    />
+    <div class="input-group-append">
+      <button class="btn btn-outline-secondary" type="submit" id="ping-btn">
+        Ping!
+      </button>
+    </div>
+  </div>
+</form>
+<code>{{ output }}</code> {% endblock %}

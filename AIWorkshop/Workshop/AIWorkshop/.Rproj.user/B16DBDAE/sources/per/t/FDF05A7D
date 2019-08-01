@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1547879013260.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3111249408",
+    "id" : "FDF05A7D",
+    "lastKnownWriteTime" : 1547879420,
+    "last_content_update" : 1547879420069,
+    "path" : "D:/Meetups/AIWorkshop/Workshop/AIWorkshop/untitled.R",
+    "project_path" : "untitled.R",
+    "properties" : {
+        "cursorPosition" : "2,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

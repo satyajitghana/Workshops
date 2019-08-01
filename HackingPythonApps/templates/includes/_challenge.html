@@ -1,0 +1,24 @@
+<h1 class="display-4">{{ meta['title'] }}</h1><br>
+<div class="alert alert-primary" role="alert">
+  Objective: {{ meta['objective'] }}.
+</div>
+<p>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#hint" aria-expanded="false"
+    aria-controls="collapseExample">
+    Hint
+  </button>
+  <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#answer" aria-expanded="false"
+    aria-controls="collapseExample">
+    Answer
+  </button>
+</p>
+<div class="collapse" id="hint">
+  <div class="card card-body">
+    {{ meta['hint'] | safe }}
+  </div>
+</div>
+<div class="collapse" id="answer">
+  <div class="card card-body">
+    {{ meta['answer'] | safe }}
+  </div>
+</div>

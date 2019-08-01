@@ -1,0 +1,23 @@
+{% extends 'layout.html' %} {% block body %} {% include
+'includes/_challenge.html' %}
+
+<hr />
+{% if not output %}
+<form action="/deserialization" method="GET">
+  <div class="input-group mb-3">
+    <input
+      type="text"
+      name="name"
+      class="form-control"
+      placeholder="Name"
+      aria-label="Name"
+      aria-describedby="set-btn"
+    />
+    <div class="input-group-append">
+      <button class="btn btn-outline-secondary" type="submit" id="set-btn">
+        Set
+      </button>
+    </div>
+  </div>
+</form>
+{% else %} <code>Hello, {{ output }}!</code> {% endif %} {% endblock %}

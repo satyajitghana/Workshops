@@ -1,0 +1,23 @@
+{% extends 'layout.html' %} {% block body %} {% include
+'includes/_challenge.html' %}
+
+<hr />
+<div class="card border-dark mb-3" style="max-width: 18rem;">
+  <div class="card-header">Note</div>
+  <div class="card-body text-dark">
+    <h5 class="card-title">API challenge</h5>
+    <p class="card-text">
+      Since this challenge requires messing around with the JSON format, the
+      entire challenge is a simple API.
+    </p>
+  </div>
+  <div class="card-footer bg-transparent border-dark">
+    <p class="card-text">
+      Endpoint: <code>/types-mismatch/api</code><br />
+      Method: <code>POST</code><br />
+      Data: <code>{ "post_id": 3 }</code>
+    </p>
+  </div>
+</div>
+
+{% endblock %}

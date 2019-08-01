@@ -1,0 +1,43 @@
+---
+title: "R OOP and other packages"
+output: html_notebook
+---
+
+ROC and AUC
+
+## Data Manipulation packages
+  - dplyr
+  - data.table
+  - lubridate
+  - jsonlite
+
+## Graphics plot libraries
+  - ggplot2
+  - corrplot
+  - lattice
+  - cartography
+
+## Books
+  - Advanced R
+  
+## HTML widget packages
+  - plotly
+  - ggvis
+  - DT Datatables
+  - rCharts
+  - shiny
+  - plumber
+
+## Reproducable research
+  - knitr
+  - rMarkdown
+  - slidify
+  
+## MachineLearning Packages
+  - caret
+  - mlr
+  - dmlc XGBoost
+  - gbm
+  - Prophet
+  - randomforest
+  - H2O

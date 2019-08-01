@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+{% block body %}
+<h1>Python Interpreter</h1>
+<p id="loading-msg">Loading python shell...</p>
+<iframe id="py-shell" style="border: none; width: 100%; height: 300px" src="https://console.python.org/python-dot-org-console/"
+  frameborder="0"></iframe>
+<script>
+  $('#py-shell').ready(function () {
+    setTimeout(function () {
+      $('#loading-msg').css('display', 'none');
+    }, 2500);
+  });
+</script>
+{% endblock %}
